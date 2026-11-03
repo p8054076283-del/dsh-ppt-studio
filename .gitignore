@@ -1,0 +1,10 @@
+node_modules/
+*.tgz
+.scratch/
+.shots/
+.ppt-studio/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+dist/

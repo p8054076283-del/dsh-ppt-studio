@@ -1,0 +1,66 @@
+{
+  "name": "dsh-ppt-studio",
+  "version": "1.0.0",
+  "description": "PPT workbench inside DeepSeek Harness: a left-sidebar panel that renders .ppt-studio/deck.json as live 16:9 thumbnails, edits it in place, refreshes when the file changes, and sends chat prompts to the current session.",
+  "license": "MIT",
+  "author": "p8054076283-del",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "scripts/import-pptx.py",
+    "locale/*.json",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/p8054076283-del/dsh-ppt-studio#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p8054076283-del/dsh-ppt-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/p8054076283-del/dsh-ppt-studio/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "pptx",
+    "powerpoint",
+    "slides",
+    "deck",
+    "workbench",
+    "pptx-import"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build2.mjs",
+    "test": "node scripts/selftest-client.mjs && node scripts/selftest-host.mjs && node scripts/selftest-render.mjs && node scripts/selftest-markdown.mjs",
+    "test:import": "python scripts/selftest-import.py",
+    "pack": "node build2.mjs && npm pack"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  }
+}

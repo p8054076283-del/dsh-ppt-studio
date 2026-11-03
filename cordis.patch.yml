@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-ppt-studio
+      name: 'dsh-ppt-studio'
+      config: {}

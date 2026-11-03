@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build2.mjs
+      - run: node scripts/selftest-client.mjs
+      - run: node scripts/selftest-host.mjs
+      - run: node scripts/selftest-render.mjs
+      - run: node scripts/selftest-markdown.mjs
+
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install python-pptx lxml pillow
+      - run: python scripts/selftest-import.py

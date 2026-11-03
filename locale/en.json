@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PPT Workbench",
+    "description": "Renders .ppt-studio/deck.json as editable slide thumbnails in the main panel, writes edits back to the same file, and carries an inline chat box for the active session."
+  }
+}
