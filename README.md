@@ -8,8 +8,9 @@ column that can rewrite the deck for you.
 
 ![The workbench: thumbnail rail, 16:9 preview, inline editing and the AI chat column](docs/screenshots/01-workbench.png)
 
-Everything you see above runs on a synthetic demo deck that ships with this repository — no real
-presentation content is used in these screenshots.
+Everything you see above runs on the synthetic demo deck in [`examples/demo-deck.json`](examples/demo-deck.json)
+— no real presentation content is used in these screenshots. Copy it to `<workspace>/.ppt-studio/deck.json`
+to try the panel without touching your own deck.
 
 中文说明见 [README.zh-CN.md](README.zh-CN.md)。
 

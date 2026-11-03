@@ -1,0 +1,731 @@
+{
+  "version": 1,
+  "theme": {
+    "bg": "#FFFFFF",
+    "fg": "#1F2937",
+    "accent": "#1D4E7A",
+    "font": "Microsoft YaHei"
+  },
+  "meta": {
+    "title": "2026 产品路线图（演示文稿）"
+  },
+  "slides": [
+    {
+      "id": "p01",
+      "layout": "imported",
+      "title": "2026 产品路线图",
+      "body": "",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "w": 13.333,
+          "h": 7.5,
+          "fill": "linear-gradient(135deg, #0F2A44 0%, #1D4E7A 100%)"
+        },
+        {
+          "type": "shape",
+          "x": 9.1,
+          "y": -1.1,
+          "w": 5.4,
+          "h": 5.4,
+          "fill": "rgba(255,255,255,0.06)",
+          "radiusPct": 50
+        },
+        {
+          "type": "shape",
+          "x": 10.2,
+          "y": 3.4,
+          "w": 2.6,
+          "h": 2.6,
+          "fill": "rgba(232,168,96,0.20)",
+          "radiusPct": 50
+        },
+        {
+          "type": "shape",
+          "x": -0.9,
+          "y": 5.4,
+          "w": 3.4,
+          "h": 3.4,
+          "fill": "rgba(127,209,209,0.12)",
+          "radiusPct": 50
+        },
+        {
+          "type": "text",
+          "x": 0.9,
+          "y": 1.15,
+          "w": 6.4,
+          "h": 0.5,
+          "text": "PRODUCT ROADMAP · 2026",
+          "size": 15,
+          "color": "#7FD1D1",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 0.9,
+          "y": 2.05,
+          "w": 7.2,
+          "h": 1.9,
+          "text": "2026\n产品路线图",
+          "size": 56,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 0.92,
+          "y": 4.35,
+          "w": 6.6,
+          "h": 0.4,
+          "text": "把复杂留给自己，把简单留给用户",
+          "size": 20,
+          "color": "#C8D8E8",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 0.94,
+          "y": 5.15,
+          "w": 1.5,
+          "h": 0.06,
+          "fill": "#E8A860"
+        },
+        {
+          "type": "text",
+          "x": 0.92,
+          "y": 6.35,
+          "w": 6.2,
+          "h": 0.35,
+          "text": "产品团队 · 2026.11 · 内部演示",
+          "size": 13,
+          "color": "#9FB6CC",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "layout": "imported",
+      "title": "关键指标",
+      "body": "",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "w": 13.333,
+          "h": 7.5,
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 0.83,
+          "y": 0.55,
+          "w": 8.0,
+          "h": 0.8,
+          "text": "关键指标",
+          "size": 34,
+          "color": "#1D2B3A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 0.85,
+          "y": 1.32,
+          "w": 2.2,
+          "h": 0.05,
+          "fill": "#E8A860"
+        },
+        {
+          "type": "shape",
+          "x": 0.83,
+          "y": 1.95,
+          "w": 2.86,
+          "h": 2.25,
+          "fill": "#F7F3ED",
+          "radiusPct": 7
+        },
+        {
+          "type": "text",
+          "x": 1.1099999999999999,
+          "y": 2.22,
+          "w": 2.4,
+          "h": 0.85,
+          "text": "",
+          "size": 13,
+          "color": "#B4543C",
+          "bold": false,
+          "align": "left",
+          "valign": "top",
+          "spans": [
+            {
+              "t": "128.6",
+              "size": 34,
+              "color": "#B4543C"
+            },
+            {
+              "t": " h",
+              "size": 15,
+              "color": "#6E6A63"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "x": 1.1099999999999999,
+          "y": 3.16,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "月活跃用户",
+          "size": 13,
+          "color": "#1D2B3A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 1.1099999999999999,
+          "y": 3.52,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "同比增长 24%",
+          "size": 11,
+          "color": "#6E6A63",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 3.93,
+          "y": 1.95,
+          "w": 2.86,
+          "h": 2.25,
+          "fill": "#F7F3ED",
+          "radiusPct": 7
+        },
+        {
+          "type": "text",
+          "x": 4.21,
+          "y": 2.22,
+          "w": 2.4,
+          "h": 0.85,
+          "text": "",
+          "size": 13,
+          "color": "#B4543C",
+          "bold": false,
+          "align": "left",
+          "valign": "top",
+          "spans": [
+            {
+              "t": "42",
+              "size": 34,
+              "color": "#B4543C"
+            },
+            {
+              "t": " %",
+              "size": 15,
+              "color": "#6E6A63"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "x": 4.21,
+          "y": 3.16,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "自动化覆盖率",
+          "size": 13,
+          "color": "#1D2B3A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 4.21,
+          "y": 3.52,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "节省 3.1 万小时",
+          "size": 11,
+          "color": "#6E6A63",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 7.03,
+          "y": 1.95,
+          "w": 2.86,
+          "h": 2.25,
+          "fill": "#F7F3ED",
+          "radiusPct": 7
+        },
+        {
+          "type": "text",
+          "x": 7.3100000000000005,
+          "y": 2.22,
+          "w": 2.4,
+          "h": 0.85,
+          "text": "",
+          "size": 13,
+          "color": "#B4543C",
+          "bold": false,
+          "align": "left",
+          "valign": "top",
+          "spans": [
+            {
+              "t": "7",
+              "size": 34,
+              "color": "#B4543C"
+            },
+            {
+              "t": " 项",
+              "size": 15,
+              "color": "#6E6A63"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "x": 7.3100000000000005,
+          "y": 3.16,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "交付里程碑",
+          "size": 13,
+          "color": "#1D2B3A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 7.3100000000000005,
+          "y": 3.52,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "全部按期完成",
+          "size": 11,
+          "color": "#6E6A63",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 10.13,
+          "y": 1.95,
+          "w": 2.86,
+          "h": 2.25,
+          "fill": "#F7F3ED",
+          "radiusPct": 7
+        },
+        {
+          "type": "text",
+          "x": 10.41,
+          "y": 2.22,
+          "w": 2.4,
+          "h": 0.85,
+          "text": "",
+          "size": 13,
+          "color": "#B4543C",
+          "bold": false,
+          "align": "left",
+          "valign": "top",
+          "spans": [
+            {
+              "t": "3",
+              "size": 34,
+              "color": "#B4543C"
+            },
+            {
+              "t": " 个",
+              "size": 15,
+              "color": "#6E6A63"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "x": 10.41,
+          "y": 3.16,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "创新试点",
+          "size": 13,
+          "color": "#1D2B3A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 10.41,
+          "y": 3.52,
+          "w": 2.3,
+          "h": 0.3,
+          "text": "进入验证阶段",
+          "size": 11,
+          "color": "#6E6A63",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 0.83,
+          "y": 4.85,
+          "w": 11.67,
+          "h": 0.95,
+          "fill": "#1D4E7A",
+          "radiusPct": 3
+        },
+        {
+          "type": "text",
+          "x": 1.2,
+          "y": 5.06,
+          "w": 10.9,
+          "h": 0.5,
+          "text": "核心结论：用户增长来自产品体验，而不是投放。",
+          "size": 20,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 0.83,
+          "y": 6.35,
+          "w": 11.67,
+          "h": 0.01,
+          "fill": "#D8CFC0"
+        },
+        {
+          "type": "text",
+          "x": 0.85,
+          "y": 6.55,
+          "w": 6.4,
+          "h": 0.3,
+          "text": "产品团队 · 2026 年度复盘",
+          "size": 11,
+          "color": "#8A8A8A",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "layout": "imported",
+      "title": "两条工作主线",
+      "body": "",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "w": 13.333,
+          "h": 7.5,
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 0.83,
+          "y": 0.55,
+          "w": 8.0,
+          "h": 0.8,
+          "text": "两条工作主线",
+          "size": 34,
+          "color": "#1D2B3A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 0.85,
+          "y": 1.32,
+          "w": 2.2,
+          "h": 0.05,
+          "fill": "#E8A860"
+        },
+        {
+          "type": "shape",
+          "x": 0.83,
+          "y": 1.95,
+          "w": 5.7,
+          "h": 3.9,
+          "fill": "#F7F3ED",
+          "radiusPct": 5
+        },
+        {
+          "type": "text",
+          "x": 1.15,
+          "y": 2.2,
+          "w": 5.0,
+          "h": 0.4,
+          "text": "01 · 体验优先",
+          "size": 18,
+          "color": "#B4543C",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 1.15,
+          "y": 2.75,
+          "w": 4.95,
+          "h": 2.9,
+          "text": "统一工作台入口\n把高频动作缩短到两次点击\n为慢网络补齐降级方案\n埋点覆盖每一个关键路径",
+          "size": 15,
+          "color": "#3A3A3A",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 6.83,
+          "y": 1.95,
+          "w": 5.7,
+          "h": 3.9,
+          "fill": "#F7F3ED",
+          "radiusPct": 5
+        },
+        {
+          "type": "text",
+          "x": 7.15,
+          "y": 2.2,
+          "w": 5.0,
+          "h": 0.4,
+          "text": "02 · 自动化优先",
+          "size": 18,
+          "color": "#1D4E7A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 7.15,
+          "y": 2.75,
+          "w": 4.95,
+          "h": 2.9,
+          "text": "重复劳动交给流水线\n测试从手工抽查变成门禁\n发布节奏由周改为日\n故障恢复演练常态化",
+          "size": 15,
+          "color": "#3A3A3A",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 0.85,
+          "y": 6.2,
+          "w": 8.0,
+          "h": 0.35,
+          "text": "取舍：先做能立刻减少等待的事。",
+          "size": 14,
+          "color": "#8A8A8A",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "layout": "imported",
+      "title": "季度交付",
+      "body": "",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "w": 13.333,
+          "h": 7.5,
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 0.83,
+          "y": 0.55,
+          "w": 8.0,
+          "h": 0.8,
+          "text": "季度交付",
+          "size": 34,
+          "color": "#1D2B3A",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 0.85,
+          "y": 1.32,
+          "w": 2.2,
+          "h": 0.05,
+          "fill": "#E8A860"
+        },
+        {
+          "type": "table",
+          "x": 0.85,
+          "y": 1.95,
+          "w": 11.6,
+          "h": 3.9,
+          "size": 15,
+          "columns": [
+            "季度",
+            "里程碑",
+            "负责人",
+            "状态"
+          ],
+          "rows": [
+            [
+              "Q1",
+              "统一入口",
+              "体验组",
+              "已完成"
+            ],
+            [
+              "Q2",
+              "流水线门禁",
+              "工程组",
+              "已完成"
+            ],
+            [
+              "Q3",
+              "自动化回归",
+              "质量组",
+              "进行中"
+            ],
+            [
+              "Q4",
+              "发布日节奏",
+              "平台组",
+              "规划中"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "x": 0.85,
+          "y": 6.2,
+          "w": 8.0,
+          "h": 0.35,
+          "text": "数据为演示样例，与任何真实团队无关。",
+          "size": 12,
+          "color": "#8A8A8A",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "layout": "imported",
+      "title": "增长策略",
+      "body": "",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "w": 13.333,
+          "h": 7.5,
+          "fill": "#123048"
+        },
+        {
+          "type": "shape",
+          "x": 9.4,
+          "y": 0,
+          "w": 3.933,
+          "h": 7.5,
+          "fill": "linear-gradient(180deg, rgba(232,168,96,0.55) 0%, rgba(29,78,122,0.65) 100%)"
+        },
+        {
+          "type": "text",
+          "x": 0.9,
+          "y": 1.15,
+          "w": 3.0,
+          "h": 1.9,
+          "text": "02",
+          "size": 88,
+          "color": "#E8A860",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 0.92,
+          "y": 3.05,
+          "w": 5.2,
+          "h": 0.4,
+          "text": "PART 02 · 增长策略",
+          "size": 15,
+          "color": "#E8A860",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "text",
+          "x": 0.9,
+          "y": 3.55,
+          "w": 7.4,
+          "h": 0.9,
+          "text": "把钱花在留存上",
+          "size": 44,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "valign": "top"
+        },
+        {
+          "type": "shape",
+          "x": 0.94,
+          "y": 4.72,
+          "w": 1.6,
+          "h": 0.06,
+          "fill": "#E8A860"
+        },
+        {
+          "type": "text",
+          "x": 0.92,
+          "y": 5.0,
+          "w": 7.6,
+          "h": 0.5,
+          "text": "获取是成本，留存才是资产。",
+          "size": 17,
+          "color": "#C8D8E8",
+          "bold": false,
+          "align": "left",
+          "valign": "top"
+        }
+      ]
+    }
+  ]
+}
