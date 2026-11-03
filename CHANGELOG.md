@@ -3,6 +3,13 @@
 All notable changes to this project. The plugin version lives in `package.json`; the client
 bundle also prints its own build id (for example `v0.13-r6`) in the panel footer.
 
+## 1.0.1
+
+- **Fixed** rounded shapes and UI corners being flattened inside the main panel page: the Harness
+  shell applies `border-radius: 0 !important` to everything in that slot, so every radius we emit
+  now carries `!important` (inline for slide shapes, injected stylesheet for the panel chrome).
+- Demo screenshots in the repository are generated from a synthetic deck.
+
 ## 1.0.0
 
 First public release.
