@@ -1,0 +1,70 @@
+name: Bug report
+description: Something in the panel is broken or behaves unexpectedly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. **Do not paste personal or confidential slide content** — redact names,
+        student IDs, internal numbers, or replace the deck with the bundled `examples/demo-deck.json`
+        when the bug can be reproduced with it.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you see, and what did you expect instead?
+      placeholder: Clicking a text block on an imported page opened an empty editor...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a workspace with .ppt-studio/deck.json
+        2. Click 导入 on an attached .pptx
+        3. Click the title on page 3
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does it happen
+      options:
+        - Panel UI (thumbnails, preview, toolbar, form)
+        - In-place editing (text / table cell)
+        - PPTX import (layout, colours, missing elements)
+        - Chat column (messages, attachments, process timeline)
+        - File watching / saving
+        - Host routes or diagnostics
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Plugin build id from the panel footer (e.g. v1.0.1) and `dsh --version`.
+      placeholder: "plugin v1.0.1 · dsh 0.1.x"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: OS
+      options: [Windows, macOS, Linux]
+    validations:
+      required: true
+  - type: checkboxes
+    id: extras
+    attributes:
+      label: Import environment (optional)
+      options:
+        - label: Python 3 + python-pptx available
+        - label: LibreOffice installed (needed for chart/SmartArt pages)
+        - label: poppler (pdftoppm) installed
+  - type: textarea
+    id: details
+    attributes:
+      label: Screenshots, logs or extra context
+      description: Screenshots help a lot. If the panel shows an error, paste the message.

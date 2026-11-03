@@ -1,0 +1,51 @@
+name: PPTX import fidelity issue
+description: A page does not look like it does in PowerPoint, or something is missing after import.
+labels: ["import", "fidelity"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Import problems are the most valuable reports this project gets. Please **redact personal
+        content** (names, IDs, internal numbers). A minimal .pptx that still shows the problem is ideal;
+        if you cannot share the file, describe the construction (theme shape with fill style, group,
+        gradient overlay, chart, SmartArt, ...).
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: What is wrong
+      multiple: true
+      options:
+        - Page looks nothing like the original (reflowed / wrong positions)
+        - Text invisible (colour or background wrong)
+        - Missing elements (shapes, images, decorations)
+        - Wrong colours (theme colours, gradients, transparency)
+        - Text formatting wrong (size, mixed sizes, wrapping, alignment)
+        - Rounded shapes / circles rendered as squares
+        - Chart / SmartArt / OLE page is blank or rendered incorrectly
+        - Table content or geometry wrong
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Which page
+      placeholder: "page 4 (the section divider)"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual
+      description: What should it look like (PowerPoint screenshot is fine, redacted) and what do you get?
+    validations:
+      required: true
+  - type: textarea
+    id: construction
+    attributes:
+      label: How is that page built (if you know)
+      description: e.g. "background is a solid theme fill on the slide, the white title sits on a gradient shape from a group".
+  - type: textarea
+    id: severity
+    attributes:
+      label: Does it block you?
+      description: Is the page still usable for editing (clickable text) or is it read-only/blank?

@@ -154,6 +154,17 @@ python scripts/selftest-import.py   # importer (+ rasterization when LibreOffice
 - Chart / SmartArt / OLE pages are images (read-only).
 - Re-importing a `.pptx` overwrites in-panel edits, because the source of truth is the file.
 
+## Feedback
+
+- **Bug?** [Open an issue](https://github.com/p8054076283-del/dsh-ppt-studio/issues/new/choose) — the
+  forms ask for the plugin build id, OS and a repro. Please redact personal or confidential slide
+  content; `examples/demo-deck.json` reproduces most panel bugs.
+- **Import looks wrong?** Use the *PPTX import fidelity issue* form: it asks what the page is built
+  from (theme fill, group, gradient overlay, chart, ...), which is usually enough to fix it.
+- **Question / setup help?** [Discussions → Q&A](https://github.com/p8054076283-del/dsh-ppt-studio/discussions/categories/q-a).
+- **Pull requests are welcome** — run `npm test` and `python scripts/selftest-import.py` first; the
+  repository also carries `examples/demo-deck.json` so screenshots and repros never need a real deck.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

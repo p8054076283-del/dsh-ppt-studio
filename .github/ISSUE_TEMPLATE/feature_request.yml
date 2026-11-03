@@ -1,0 +1,31 @@
+name: Feature request
+description: Something the workbench should do that it does not yet.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and where does the panel get in the way?
+      placeholder: I want to change a slide's accent colour without editing deck.json by hand...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like to see
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you tried
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Area
+      options:
+        - label: Editing (properties, drag/resize, add/remove elements)
+        - label: Import fidelity (shadow/rotation/WordArt/animations)
+        - label: Chat / AI workflow
+        - label: Performance or large decks

@@ -165,6 +165,13 @@ node scripts/dev-live-ratio.mjs 0.66               # 把分隔比例写回 local
 
 量表时注意：那个窗口是用户正在用的窗口，脚本会真的点开面板/改比例，跑完记得还回对话页并还原比例。
 
+## 反馈
+
+- **遇到问题**：[提 issue](https://github.com/p8054076283-del/dsh-ppt-studio/issues/new/choose)——表单会问插件 build 号、系统和复现步骤；请把姓名、学号、内部数据打码，仓库自带的 `examples/demo-deck.json` 能复现大部分面板问题。
+- **导入效果不对**：选 *PPTX import fidelity issue* 模板，它会问那一页是用什么做的（主题填充、组合、渐变蒙层、图表……），这些信息通常就够定位了。
+- **使用疑问**：[Discussions → Q&A](https://github.com/p8054076283-del/dsh-ppt-studio/discussions/categories/q-a)。
+- **欢迎 PR**：先跑 `npm test` 和 `python scripts/selftest-import.py`；截图和复现都用仓库自带的演示稿，不需要真实稿件。
+
 ## 已知限制
 
 - 只支持 8 种内置版式，不支持自由拖拽绘图；复杂动效/图表需在 PowerPoint 里二次加工。

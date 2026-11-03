@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question (Discussions)
+    url: https://github.com/p8054076283-del/dsh-ppt-studio/discussions/categories/q-a
+    about: Setup help, usage questions, and "does this support ..." — better in Discussions than in issues.
+  - name: Plugin listing
+    url: https://awesome-dsh-plugin.com
+    about: The marketplace listing, install command and community plugins.
