@@ -6,6 +6,11 @@ it renders `<workspace>/.ppt-studio/deck.json` as real 16:9 thumbnails, lets you
 **as they are** instead of re-flowing them into template layouts, and hosts a continuous AI chat
 column that can rewrite the deck for you.
 
+![The workbench: thumbnail rail, 16:9 preview, inline editing and the AI chat column](docs/screenshots/01-workbench.png)
+
+Everything you see above runs on a synthetic demo deck that ships with this repository — no real
+presentation content is used in these screenshots.
+
 中文说明见 [README.zh-CN.md](README.zh-CN.md)。
 
 ## What it does
@@ -28,6 +33,15 @@ column that can rewrite the deck for you.
 - **File watching that respects you** — the panel polls `deck.json`; external edits highlight the
   changed page, but the panel's own saves are never flagged as "AI changed this".
 - **One proportional splitter** fills the page and keeps both halves usable at any window size.
+
+### Editing, metrics and imported tables
+
+| | |
+|---|---|
+| ![Click a text block and type](docs/screenshots/03-inline-edit.png) | ![Mixed run styles and rounded cards](docs/screenshots/02-metrics.png) |
+| Click any text block (or table cell) and type — click away to save. | Mixed run sizes (`spans`) and rounded shapes survive the PPTX import. |
+| ![Table page](docs/screenshots/04-table.png) | ![Section page](docs/screenshots/05-section.png) |
+| Tables are first-class elements, editable cell by cell. | Section pages keep their gradients and typography. |
 
 ## Install
 

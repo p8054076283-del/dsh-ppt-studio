@@ -8,7 +8,11 @@
 dsh plugin --profile web add https://github.com/p8054076283-del/dsh-ppt-studio/releases/latest/download/dsh-ppt-studio.tgz
 ```
 
-English docs: [README.md](README.md)
+![工作台：缩略图、16:9 预览、就地编辑与 AI 对话栏](docs/screenshots/01-workbench.png)
+
+以上截图使用仓库自带的合成演示文稿，不含任何真实演示内容。
+
+English docs: [README.md](README.md)。
 
 在 DeepSeek Harness 左侧栏加一个「PPT 工作台」页：把工作区里的 `.ppt-studio/deck.json` 渲染成真实 16:9 缩略图，可就地编辑、可和 AI 对话，AI 改完文件面板自动刷新。
 

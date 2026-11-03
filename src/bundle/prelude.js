@@ -3,7 +3,7 @@
     var TITLE = 'PPT 工作台'
     var PANEL_KEY = 'ppt-studio'
     var BASE = '/ppt-studio'
-    var BUILD = 'v1.0.0'
+    var BUILD = 'v1.0.1'
     var POLL_MS = 1400
     var LAYOUTS = ['cover', 'section', 'bullets', 'two-col', 'image-right', 'image-full', 'quote', 'table', 'imported']
     var LAYOUT_LABELS = {
@@ -173,6 +173,17 @@
       '.ppt3-thumbs::-webkit-scrollbar-thumb:hover,.ppt3-main::-webkit-scrollbar-thumb:hover,.ppt4-log::-webkit-scrollbar-thumb:hover{background:var(--dsw-alias-label-secondary);border-width:3px;background-clip:padding-box}'
 
     var cssInjected = false
+    /**
+     * The Harness shell flattens every radius inside the main slot with
+     * `border-radius: 0 !important`. Inline !important is the only thing that beats it,
+     * so every rule we inject carries the flag.
+     */
+    function forceRadius(css) {
+      return String(css).replace(/border-radius:([^;}]+)/g, function (match, value) {
+        return /!important/.test(value) ? match : 'border-radius:' + value + ' !important'
+      })
+    }
+
     function useStyles() {
       if (cssInjected) return
       cssInjected = true
@@ -185,7 +196,7 @@
         }
         var style = document.createElement('style')
         style.setAttribute('data-ppt-studio', '')
-        style.textContent = PAGE_CSS + Render.PREVIEW_CSS
+        style.textContent = forceRadius(PAGE_CSS + Render.PREVIEW_CSS)
         document.head.appendChild(style)
       } catch (error) {
         /* styling is best-effort */
@@ -220,6 +231,7 @@
     }
     /** The live Client context, captured at activation for the panel's remote calls. */
     var hostCtx = null
+
 
 
 

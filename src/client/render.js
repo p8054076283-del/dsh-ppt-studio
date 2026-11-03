@@ -757,7 +757,7 @@ define('render', function (React) {
       return `<div class="el" style="left:${pct(e.x, W)};top:${pct(e.y, H)};width:${pct(e.w, W)};height:${pct(
         e.h,
         H
-      )};background:${e.fill};${e.line ? `box-shadow:inset 0 0 0 max(1px,0.1cqw) ${e.line};` : ''}border-radius:${radius}"></div>`
+      )};background:${e.fill};${e.line ? `box-shadow:inset 0 0 0 max(1px,0.1cqw) ${e.line};` : ''}border-radius:${radius} !important"></div>`
     }
     if (e.type === 'image') {
       const url = resolveImage(e.src)

@@ -121,7 +121,9 @@
         }
         var style = document.createElement('style')
         style.setAttribute('data-ppt-studio-chat', '')
-        style.textContent = CHAT_CSS
+        style.textContent = String(CHAT_CSS).replace(/border-radius:([^;}]+)/g, function (match, value) {
+          return /!important/.test(value) ? match : 'border-radius:' + value + ' !important'
+        })
         document.head.appendChild(style)
       } catch (error) {
         /* best-effort */

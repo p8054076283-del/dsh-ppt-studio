@@ -1,6 +1,6 @@
 {
   "name": "dsh-ppt-studio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PPT workbench inside DeepSeek Harness: a left-sidebar panel that renders .ppt-studio/deck.json as live 16:9 thumbnails, edits it in place, refreshes when the file changes, and sends chat prompts to the current session.",
   "license": "MIT",
   "author": "p8054076283-del",
@@ -64,3 +64,4 @@
     }
   }
 }
+
