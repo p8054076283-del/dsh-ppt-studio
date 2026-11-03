@@ -1,0 +1,12 @@
+name: Simple test
+description: Minimal issue form to verify template recognition.
+body:
+  - type: markdown
+    attributes:
+      value: "hello"
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
